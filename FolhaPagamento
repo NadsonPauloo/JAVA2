@@ -1,0 +1,4 @@
+public interface Folha_pagamento {
+    void calcularSalario();
+    void
+}
