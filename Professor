@@ -1,0 +1,52 @@
+public class Professor extends Pessoa {
+            private String disciplina;
+            private double salario;
+            private int tempo ;
+
+    public int getTempo() {
+        return tempo;
+    }
+
+    public void setDisciplina(String disciplina) {
+                this.disciplina = disciplina;
+            }
+
+            public void setSalario (double salario){
+                this.salario = salario;
+            }
+            public void setTempo (int tempo){
+                this.tempo  = tempo;
+            }
+            public String getDisciplina() {
+                return disciplina;
+            }
+
+
+            public double getSalario (){
+                return salario;
+            }
+
+            public double calcSalario (){
+                return tempo*salario;
+    }
+
+    @Override
+    public String toString() {
+        return "Professor{" +
+                "disciplina='" + disciplina + '\'' +
+                ", salario=" + salario +
+                ", tempo=" + tempo +
+                '}';
+    }
+
+    @Override
+    public void minhaAtividade() {
+
+    }
+
+    @Override
+    public void quemSouEU() {
+        super.quemSouEU();
+    }
+}
+}
