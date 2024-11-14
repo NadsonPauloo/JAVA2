@@ -1,0 +1,9 @@
+public enum CARGO {
+    professor,
+    Coordenador,
+    Secretário,
+    Auxiliar,
+
+
+
+}
