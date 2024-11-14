@@ -1,0 +1,39 @@
+import org.w3c.dom.ls.LSOutput;
+
+public class Disciplina {
+
+    private String disciplina;
+    private Aluno aluno;
+    private Professor professor;
+
+    public String getDisciplina() {
+        return disciplina;
+    }
+
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+
+    public Aluno getAluno() {
+        return aluno;
+    }
+
+    public void setAluno(Aluno aluno) {
+        this.aluno = aluno;
+    }
+
+    public Professor getProfessor() {
+        return professor;
+    }
+
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
+    }
+
+    public Disciplina(Professor professor) {
+        this.professor = professor;
+
+
+    }
+
+}
